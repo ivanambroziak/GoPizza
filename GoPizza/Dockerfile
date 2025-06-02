@@ -5,7 +5,7 @@ FROM python:3.11
 WORKDIR /app
 
 # Копіюємо залежності
-COPY requirements.txt .
+COPY GoPizza/requirements.txt
 
 # Встановлюємо залежності
 RUN pip install --no-cache-dir -r requirements.txt
